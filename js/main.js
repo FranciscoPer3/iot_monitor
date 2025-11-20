@@ -15,8 +15,8 @@ class CarMonitor {
     }
 
     connectWebSocket() {
-        // TU IP PÚBLICA DE AWS
-        const serverUrl = 'ws://18.206.202.121:5500';
+        // ✅ URL ACTUALIZADA CON SERVEO
+        const serverUrl = 'wss://8c3ca9608d0ebe2c66d653b532c3b154.serveo.net';
         
         console.log('Conectando monitor a:', serverUrl);
         this.ws = new WebSocket(serverUrl);
