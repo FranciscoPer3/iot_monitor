@@ -16,7 +16,7 @@ class CarMonitor {
 
     connectWebSocket() {
         // ✅ URL ACTUALIZADA CON SERVEO
-        const serverUrl = 'wss://salty-apples-accept.loca.lt';
+        const serverUrl = 'wss://tiny-shrimps-invent.loca.lt';
         
         console.log('Conectando monitor a:', serverUrl);
         this.ws = new WebSocket(serverUrl);
