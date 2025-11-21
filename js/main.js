@@ -16,7 +16,7 @@ class CarMonitor {
 
     connectWebSocket() {
         // ✅ URL ACTUALIZADA CON SERVEO
-        const serverUrl = 'wss://calm-results-kiss.loca.lt';
+        const serverUrl = 'wss://petite-jokes-find.loca.lt';
         
         console.log('Conectando monitor a:', serverUrl);
         this.ws = new WebSocket(serverUrl);
