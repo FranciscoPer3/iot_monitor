@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitoreo de vehículo IoT</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- ✅ FAVICON PNG PARA MONITOREO -->
+    <link rel="icon" href="images/favicon-monitor.png" type="image/png">
+    <link rel="shortcut icon" href="images/favicon-monitor.png" type="image/png">
+    <!-- Para navegadores Apple -->
+    <link rel="apple-touch-icon" href="images/favicon-monitor.png">
 </head>
 <body>
     <div class="container">
@@ -31,22 +36,25 @@
 
         <section class="table-section">
             <h2>Historial de Movimientos en Tiempo Real</h2>
-            <table id="deviceTable">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Acción</th>
-                        <th>Estado</th>
-                        <th>Fecha y Hora</th>
-                        <th>Dispositivo</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td colspan="5" class="no-data">Conectando al sistema...</td>
-                    </tr>
-                </tbody>
-            </table>
+            <!-- ✅ CONTENEDOR CON SCROLL INTERNO -->
+            <div class="table-container">
+                <table id="deviceTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Acción</th>
+                            <th>Estado</th>
+                            <th>Fecha y Hora</th>
+                            <th>Dispositivo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="5" class="no-data">Conectando al sistema...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         
         <footer>
